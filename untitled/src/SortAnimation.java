@@ -14,7 +14,7 @@ bug: still can't get rid of flickering!! (probably not a bug)
 public class SortAnimation extends Applet implements Runnable {
     private static final int SIZE = 100;
     private static final int MAX_VAL = SIZE;
-    private static final long DELAY_TIME = 1;
+    private static final long DELAY_TIME = 10;
     private int[] array = new int[SIZE];
     private int[] accessedValues = {-1, -1};
     private int[] _accessedValues = {-1, -1};
